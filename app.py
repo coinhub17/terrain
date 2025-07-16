@@ -3,7 +3,6 @@ import streamlit as st
 from PIL import Image
 import io
 import os
-from dotenv import load_dotenv
 import base64
 import numpy as np
 import streamlit.components.v1 as components
@@ -11,7 +10,6 @@ import os
 from huggingface_hub import InferenceClient
 import streamlit.components.v1 as components
 
-load_dotenv()
 # --- Hugging Face Client Initialization ---
 HF_TOKEN =os.environ.get("HF_TOKEN")
 
