@@ -4,3 +4,4 @@ pillow
 huggingface-hub
 opencv-python-headless
 numpy
+python-dotenv
