@@ -5,6 +5,7 @@ import io
 import os
 import base64
 import numpy as np
+from dotenv import load_dotenv
 import streamlit.components.v1 as components
 import os
 from huggingface_hub import InferenceClient
